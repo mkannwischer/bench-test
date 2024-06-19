@@ -1,6 +1,6 @@
 #!/bin/env python3
 import random
-
+import json
 
 
 v = [
@@ -21,4 +21,4 @@ v = [
     },
 ]
 
-print(v)
+print(json.dumps(v))
