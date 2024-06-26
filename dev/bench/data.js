@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719381267825,
+  "lastUpdate": 1719382071679,
   "repoUrl": "https://github.com/mkannwischer/bench-test",
   "entries": {
     "Benchmark": [
@@ -73,6 +73,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "decaps",
             "value": 4168,
+            "unit": "cycles"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "matthias@kannwischer.eu",
+            "name": "Matthias J. Kannwischer",
+            "username": "mkannwischer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71caafddc060dfcb5cbef1486e0388591898be48",
+          "message": "Update README\n\nSigned-off-by: Matthias J. Kannwischer <matthias@kannwischer.eu>",
+          "timestamp": "2024-06-26T14:07:39+08:00",
+          "tree_id": "232b9fbc7cec511b6effa27dc5e06891e94cef57",
+          "url": "https://github.com/mkannwischer/bench-test/commit/71caafddc060dfcb5cbef1486e0388591898be48"
+        },
+        "date": 1719382071243,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "keygen",
+            "value": 3755,
+            "unit": "cycles"
+          },
+          {
+            "name": "encaps",
+            "value": 2560,
+            "unit": "cycles"
+          },
+          {
+            "name": "decaps",
+            "value": 3739,
             "unit": "cycles"
           }
         ]
