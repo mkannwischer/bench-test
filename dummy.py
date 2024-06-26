@@ -7,7 +7,7 @@ v = [
     {
         "name": "keygen",
         "unit": "cycles",
-        "value": random.randint(0,10000)
+        "value": 1+random.randint(0,10000)
     },
     {
         "name": "encaps",
