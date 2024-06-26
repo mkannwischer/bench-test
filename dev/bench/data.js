@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719379839347,
+  "lastUpdate": 1719379948907,
   "repoUrl": "https://github.com/mkannwischer/bench-test",
   "entries": {
     "Benchmark": [
@@ -1200,6 +1200,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "decaps",
             "value": 5123,
+            "unit": "cycles"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "matthias@kannwischer.eu",
+            "name": "Matthias J. Kannwischer",
+            "username": "mkannwischer"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "918609a5142e0a958b33885ab619cf212a6785da",
+          "message": "Update bench.yml (#2)",
+          "timestamp": "2024-06-26T13:32:19+08:00",
+          "tree_id": "18ff2331b4856ad9d2a703edf092011f877933d2",
+          "url": "https://github.com/mkannwischer/bench-test/commit/918609a5142e0a958b33885ab619cf212a6785da"
+        },
+        "date": 1719379948649,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "keygen",
+            "value": 3256,
+            "unit": "cycles"
+          },
+          {
+            "name": "encaps",
+            "value": 4424,
+            "unit": "cycles"
+          },
+          {
+            "name": "decaps",
+            "value": 2843,
             "unit": "cycles"
           }
         ]
